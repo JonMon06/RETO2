@@ -1,0 +1,259 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+/*BOTON DE INICIO DE SESION*/
+.botoninicio{
+display: flex;
+top: 10%;
+right: 30%;
+}   
+/* Menu */
+nav{
+  background: rgb(97, 0, 89);
+  height: 80px;
+  width: 100%;
+}
+.enlace{
+  position: absolute;
+  padding: 5px 50px;
+  
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+li a.active, li a:hover{
+  background: rgb(240, 240, 240);
+  color: purple;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+
+/*ESTILO DE LOS TITULOS*/
+#titulo1{   
+font-size: 50px;
+color:rgb(97, 0, 89);
+justify-content: center;
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+}
+.antesdelmenu {
+  overflow: visible;
+  background-color: rgb(255, 255, 255);
+  padding: 5x;
+  border: 8px solid rgb(95, 0, 75);
+
+}
+
+/* Textos */
+
+#titulo2{
+font-size: 45px;
+color:rgb(156, 6, 144);
+font-family: Arial, Helvetica, sans-serif;
+justify-content: center;
+display: flex;
+}
+#textindex {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  text-wrap: 4;
+}
+.textop {
+  width: 83%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 8%;
+}
+#titulo3{
+font-size: 40px;
+color: rgb(155, 32, 155);
+font-family: Arial, Helvetica, sans-serif;
+justify-content: center;
+display: flex;
+}
+
+a{
+color: white;
+text-decoration: none;
+}
+
+nav{
+justify-content: center;
+display: flex;
+}
+
+.listaserv {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.listaserv li {
+  background-color: #860d9b;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/* mapa */
+iframe {
+  width: 100%;
+}
+.ubicacion {
+  justify-content: center;
+  align-items: center;
+}
+
+/* horarios y contacto */
+#horario{
+  color:rgb(107, 0, 102);
+  margin-left: 30%;
+  font-size: 30px;
+}
+#Contacto{
+  color:rgb(102, 0, 97);
+  font-size: 30px;
+  flex: 1;
+}
+
+#contacto2{
+  color:rgb(119, 0, 93);
+  font-size: 30px;
+  margin-left: 15%;
+  flex: 1;
+}
+#bibli {
+  width: 500px;
+  height: 300px;
+  margin-right: 10%;
+  float: right;
+  display: flex;
+}
+.tipo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #81007b;
+  font-weight: bold;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(36, 36, 36);
+}
+#masservicios {
+  background-color: rgb(255, 191, 250);
+  padding: 75px;
+}
+.servicios {
+  background-color: #eca9f8;
+  margin-bottom: 10px;
+}
+#botonprestamo {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #81007b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#prestimg {
+  width: 300px;
+  float: right;
+  display: flex;
+  height: 250px;
+  
+}
+
+  /* Estilo general para el footer */
+  footer {
+    margin-top: 15px;
+    background: rgb(112, 0, 112);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    height: 25%;
+  }
+  
+  footer .info {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem; /* Espaciado entre los elementos */
+  }
+  
+  footer .info li {
+    text-align: left;
+    max-width: 200px;
+    font-size: 15px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: rgb(65, 112, 241);
+  }
+  
+  footer .copy {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  #correo{
+    color: rgb(255, 255, 255);
+    }
+    #num {
+    color: white;
+    }
+    #redes {
+    color: white;
+    }
+  /* Diseño responsive */
+  @media (max-width: 768px) {
+    footer .info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    footer .info li {
+      text-align: center;
+    }
+  }
+  
+  
