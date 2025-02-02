@@ -1,0 +1,96 @@
+<?php
+
+    session_start();
+
+    if(isset($_SESSION['usuario'])){
+        header("location: bienvenido.php")
+    }
+
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="icon" type="image/png" href="IMG/logo del icono.png" sizes="48x48">
+    
+</head>
+<body>
+    <div class="antesdelmenu">
+        <div>
+        <H2 id="titulo1">BIENVENIDO A BIBLIOTECA</H2></div>
+        <H1 id="titulo2">Muskiz</H1>
+    </div>
+    <!--Menú a otros apartados de la web-->
+    <header> <!-- Menu de paginas-->
+        
+        <nav> <!-- Inicio de la barra de navegación -->
+              
+          <ul> <!-- Lista de enlaces del menú -->
+              <li><a class="active" href="index.html">Inicio</a></li> 
+              <li><a href="Catalogo.html">Catalogo</a></li> 
+              <li><a href="servicios.html">Nuestros Servicios</a></li> 
+              <li><a href="informacion.html">Sobre Nosotros</a></li> 
+              <li><a href="login.php">Iniciar Sesion</a></li>
+              <li><a href="juego.html">Juego</a></li> 
+              <li><a href="libros.php">Agregar Libros</a></li> 
+          </ul>
+        </nav>
+      </header>
+    <div class="container">
+        <h1 id="titulo1">Biblioteca de Muskiz</h2>
+        <div class="textop">
+        <p id="textindex">La Biblioteca de Muskiz es un espacio cultural dedicado a fomentar la lectura y el conocimiento en la comunidad.<br> 
+          Ubicada en el corazón del municipio, ofrece una amplia colección de libros, revistas y recursos digitales <br>para todas las edades. Además, 
+          organiza actividades como clubes de lectura, talleres y exposiciones para acercar la literatura y la cultura a sus visitantes.<br> Con un ambiente acogedor y un 
+          equipo siempre dispuesto a ayudar, la biblioteca se convierte en un punto de encuentro ideal para el aprendizaje y el disfrute de la lectura.<br> Mas adelante podras ver todo lo que ofrecemos.</p>
+        </div>
+        <div class="servicios">
+            <h3 id="titulo2">Nuestros Servicios</h3>
+            <ul class="listaserv">
+                <li>Préstamo de libros</li>
+                <li>Acceso a revistas digitales</li>
+                <li>Salas de estudio</li>
+                <li>Eventos culturales y talleres</li>
+            </ul>
+            <div id="masservicios">
+              <img id="prestimg" src="img/prest.png">
+              <h1 class="tipo">¿Quieres mas?</h1>
+              <p>Si quieres saber mas de nuestros servicios siempre puedes venir a la biblioteca personalmente. 
+              <br>Tenemos muchisimos mas servicios de los que crees como por ejemplo talleres de literatura, eventos y mucho mas!<br>para mas informacion pulsa aqui.</p>
+              <button type="button" class=botones id="botonprestamo"><a href="Servicios.html">Servicios</a></button>
+            </div>
+
+        </div>
+        
+        <div class="ubicacion">
+            <h3 id="titulo3">Ubicación de la Biblioteca</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d215.74209062369638!2d-3.1151676691306673!3d43.321208758655516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4ef7cbd4cc2fe5%3A0x4f821fdc1ed7e9f!2sAntonio%20Trueba%20Hiribidea%2C%2021%2C%2048550%20Muskiz%2C%20Bizkaia!5e0!3m2!1ses!2ses!4v1738495587941!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+
+    <footer> <!-- Pie de página -->
+        <ul class="info">
+          <li id="correo">
+            <strong>Correo de contacto</strong><br>
+            <a href="mailto:soporte.bibliomuskiz@gmail.com">soporte.bibliomuskiz@gmail.com</a>
+          </li>
+          <li id="num">
+            <strong>Número de contacto</strong><br>
+            944 58 79 422
+          </li>
+          <li id="redes">
+            <strong>Redes Sociales</strong><br>
+            <a href="https://www.google.com/?hl=es" target="_blank">@bibliomuskiz</a><br>
+            <a href="https://www.google.com/?hl=es" target="_blank">@biblio_muskiz</a>
+          </li>
+        </ul>
+        <p class="copy">HYPERBEAST © 2024</p>
+      </footer>
+      
+</body>
+</html>

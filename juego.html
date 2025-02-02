@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="CSS/juego.css">
+    <link rel="icon" type="image/png" href="IMG/logo del icono.png" sizes="48x48">
+</head>
+<body>
+    <div class="antesdelmenu">
+        <div>
+        <H2 id="titulo1">BIENVENIDO A BIBLIOTECA</H2></div>
+        <H1 id="titulo2">Muskiz</H1>
+    </div>
+    <!--Menú a otros apartados de la web-->
+         <header> <!-- Menu de paginas-->
+        
+        <nav> <!-- Inicio de la barra de navegación -->
+              
+          <ul> <!-- Lista de enlaces del menú -->
+              <li><a class="active" href="index.html">Inicio</a></li> 
+              <li><a href="informacion.html">Sobre Nosotros</a></li> 
+              <li><a href="Catalogo.html">Catalogo</a></li> 
+              <li><a href="servicios.html">Nuestros Servicios</a></li> 
+              <li><a href="login.php">Iniciar Sesion</a></li> 
+              <li><a href="libros.php">Agregar Libros</a></li> 
+          </ul>
+        </nav>
+      </header>
+      <div id="juego">
+        <h2>Adivina la Palabra</h2>
+        <div id="palabra">
+            <div class="letra pintar">G</div>
+            <div class="letra">U</div>
+            <div class="letra">I</div>
+            <div class="letra">T</div>
+            <div class="letra">A</div>
+            <div class="letra">R</div>
+            <div class="letra">R</div>
+            <div class="letra">A</div>
+        </div>
+        <h3>Ayuda: <span id="ayuda"> <Progress>ramacion</Progress></span> </h3>
+        <h3>Intentos restantes: <span id="intentos">5</span></h3>
+        <h3>Letras ingresadas: <span id="letrasIngresadas"></span></h3>
+        
+        <button onclick="cargarNuevaPalabra()">Nueva Palabra</button>
+    
+
+        <script src="juego.js"></script>
+      </div>
+    <footer> <!--Pie de pagina-->
+        <ul class="info" type="none">
+            <li id="correo"> Correo de contacto <br><a style="text-decoration: none; color:rgb(65, 112, 241)" href="mailto:correo@example.com" target="_blank">soporte.bibliomuskiz@gmail.com</a></br></li> 
+            <li id="num"> Numero de contacto <br style="color:rgb(65, 112, 241)"> 944 58 79 422 </br></li> 
+            <li id="redes"> Redes Sociales <br><a style="text-decoration: none; color:rgb(65, 112, 241)" href="https://www.google.com/?hl=es" target="_blank">@bibliomuskiz</a></br><br><a style="text-decoration: none; color:rgb(65, 112, 241)" href="https://www.google.com/?hl=es" target="_blank">@biblio_muskiz</a></br></li>
+        </ul>
+        <p class="copy"> HYPERBEAST © 2024 </p>  
+    </footer>
+
+</body>
+</html>

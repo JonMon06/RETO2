@@ -1,0 +1,196 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+/*BOTON DE INICIO DE SESION*/
+.botoninicio{
+display: flex;
+top: 10%;
+right: 30%;
+}   
+/* Menu */
+nav{
+    background: rgb(97, 0, 89);
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 5px 50px;
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: rgb(97, 0, 89);
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+/*ESTILO DE LOS TITULOS*/
+#titulo1{   
+font-size: 50px;
+color:rgb(97, 0, 89);
+justify-content: center;
+display: flex;
+font-family: Arial, Helvetica, sans-serif;
+}
+.antesdelmenu {
+    overflow: visible;
+    background-color: rgb(255, 255, 255);
+    padding: 5x;
+    border: 8px solid rgb(95, 0, 75);
+
+}
+
+/* Textos */
+
+#titulo2{
+font-size: 45px;
+color:rgb(156, 6, 144);
+justify-content: center;
+display: flex;
+}
+
+#titulo3{
+font-size: 40px;
+color: rgb(155, 32, 155);
+justify-content: center;
+display: flex;
+}
+iframe {
+    margin-left: 18px;
+}
+a{
+color: white;
+text-decoration: none;
+}
+
+nav{
+justify-content: center;
+display: flex;
+}
+
+
+
+/*FOOTER*/
+.info {
+    display: flex;
+    justify-content: center;
+    
+    }
+    a:hover{
+    color: rgb(79, 48, 119);
+    }
+    #correo{
+    color: rgb(255, 255, 255);
+    margin-right: 25%;
+    }
+    #num {
+    color: white;
+    margin-right: 25%;
+    }
+    #redes {
+    color: white;
+    }
+    .copy {
+    color:rgb(113, 125, 128);
+    display: flex;
+    justify-content: center;
+    }
+    a #correo{
+    color: rgb(252, 252, 252);
+    }
+    footer {
+    font-size:20px;
+    font-weight: bold;
+    background-color: rgb(99, 0, 94);
+    }
+
+    #juego{
+        width: 500px;
+        background-color: #fff;
+        border: 7px solid #ae91c5;
+        color: #000;
+        padding: 7px;
+        margin-left: 33%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    h2{
+        border-bottom: 1px solid #9b58d1;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    #palabra{
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+    }
+    .letra{
+        height: 50px;
+        width: 50px;
+        border: 2px solid #9b58d1;
+        text-align: center;
+        margin: 4px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .pintar{
+        background-color: #02bfa4;;
+    }
+    .pintarError{
+        background-color: red;
+    }
+    h3{
+        margin: 4px 0;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    h3 span{
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    button{
+        display: block;
+        width: fit-content;
+        margin: auto;
+        background-color:#02bfa4;
+        border: 2px solid #02bfa4;
+        border-radius: 20px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px;
+        margin-top: 30px;
+        cursor: pointer;
+        transition: .5s;
+    }
+    button:hover{
+        background-color: #02bfa4;
+    }
